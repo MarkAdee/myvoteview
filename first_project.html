@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SURVEY ON THE 2024 ELECTION" />
+    <title>SURVEY ON THE 2024 ELECTION</title>
+    <link rel="stylesheet" href="first_project.css" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" alt="Election" src="">
+      <h1>SURVEY ON THE 2024 ELECTION</h1>
+      <nav>
+        <ul>
+          <li><a href="#info-questions">INFO</a></li>
+          <li><a href="#info-questions 2">INFO 2</a></li>
+          <li><a href="#info-questions 3">INFO 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="post" action="">
+        <section role="region" aria-labelledby="#info-questions">
+          <h2 id="citizen-info">CITIZEN INFORMATON</h2>
+          <div class="info">
+            <label for="citizen-name">Name:</label>
+            <input type="text" name="citizen-name" id="citizen-name" />
+          </div>
+          <div class="info">
+            <label for="birth-date">Date of Birth:</label>
+            <input type="date" name="birth-date" id="birth-date" />
+          </div>
+          <div class="info">
+            <label for="citizen-town">Town:</label>
+            <input type="text" name="citizen-town" id="citizen-town" />
+          </div>
+          <div class="info">
+            <label for="district">District:</label>
+            <input type="text" name="district" id="district" />
+          </div>
+          <div class="info">
+            <label for="region">Region:</label>
+            <input type="text" name="region" id="region" />
+          </div>
+        </section>
+        <section role="region" aria-labelledby="info-questions 2">
+          <h2 id="info-questions 2">VOTING INFORMATON</h2>
+          <div class="question-block">
+            <h3><span class="sr-only">Question</span>1</h3>
+            <fieldset class="question" name="info-question 2-one">
+              <legend>
+                ThE Ballot boxes where placed in the open so everyone can see whats going on.
+              </legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q1-a1">
+                    <input type="radio" id="q1-a1" name="q1" value="true" />
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q1-a2">
+                    <input type="radio" id="q1-a2" name="q1" value="false" />
+                    False
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="question-block">
+            <h3><span class="sr-only">Question</span>2</h3>
+            <fieldset class="question" name="info-question 2-two">
+              <legend>
+               The queue was used so that every one will vote one after the other.
+              </legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q2-a1">
+                    <input type="radio" id="q2-a1" name="q2" value="true" />
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q2-a2">
+                    <input type="radio" id="q2-a2" name="q2" value="false" />
+                    False
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+        </section>
+        <section role="region" aria-labelledby="info-questions 3">
+          <h2 id="info-questions 3">PERSONAL VIEW</h2>
+          <div class="formrow">
+            <div class="question-block">
+              <label for="selector">Can you say the election process was a SUCCESS?</label>
+            </div>
+            <div class="answer">
+              <select name="selector" id="selector" required>
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <div class="question-block">
+              <label for="css-textarea">Do you have any comments?:</label>
+            </div>
+            <div class="answer">
+              <textarea id="css-textarea" name="info-questions 3" rows="5" cols="24"></textarea>
+            </div>
+          </div>
+        </section>
+        <button type="submit">Send</button>
+
+        <section role="region" aria-labelledby="citizen-info">
+            <h2 id="citizen-info">TO CONTACT THE EC DIRECTLY</h2>
+            <div class="info">
+            MARK ADEE 055422505
+            </div>
+          
+            </div>
+          </section>
+
+
+      </form>
+    </main>
+    <footer>
+      <address>
+        <a href="">Peaceful Election</a><br />
+        Electral Commission<br />
+        GHANA<br />
+        VOTERS
+      </address>
+    </footer>
+  </body>
+</html>
